@@ -4,7 +4,7 @@ import os
 import tempfile
 
 # Set up Google Generative AI key
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyAhIy01g4pEJorUfthoN1B8Hb-AEovePsI'
+os.environ['GOOGLE_API_KEY'] = 'YOUR_GOOGLE_API_KEY'
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=GOOGLE_API_KEY)
 
